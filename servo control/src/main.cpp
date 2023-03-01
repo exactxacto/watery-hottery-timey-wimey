@@ -2,12 +2,11 @@
 #include <Servo.h>
 
 Servo myservo;
-int pos = 0;
 int timer;
 
 void setup() {
   // put your setup code here, to run once:
-myservo.attach(9);
+myservo.attach(10);
 Serial.begin(9600);
 myservo.write (0);
 
